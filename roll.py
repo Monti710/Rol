@@ -326,7 +326,7 @@ def verificar_restricciones(df):
 
 # Programa principal
 hoy = datetime.now()
-mes, año = 5, hoy.year
+mes, año = 6, hoy.year
 
 respuesta = input("¿Desea agregar personas en 'Transmisión' y 'Cámara' los domingos a la 1:00 PM? (s/n): ").lower()
 agregar_uno_domingo = respuesta != 'n'
